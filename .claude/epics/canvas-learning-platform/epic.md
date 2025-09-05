@@ -4,7 +4,7 @@ status: backlog
 created: 2025-09-05T08:12:50Z
 progress: 0%
 prd: .claude/prds/canvas-learning-platform.md
-github: [Will be updated when synced to GitHub]
+github: https://github.com/ZheGuangZeng/canvas-learning-platform/issues/1
 ---
 
 # Epic: Canvas Learning Platform
@@ -275,18 +275,18 @@ High-level task categories that will be created:
 
 ## Tasks Created
 
-- [ ] 001.md - Database Foundation (parallel: false) - Core database schema, RLS policies, migrations
-- [ ] 002.md - Authentication System (parallel: false) - Multi-role auth with Supabase integration  
-- [ ] 003.md - Course Management (parallel: false) - Comprehensive course CRUD and enrollment
-- [ ] 004.md - Video Conferencing (parallel: true) - LiveKit integration with screen sharing
-- [ ] 005.md - Chat & Messaging (parallel: true) - Real-time chat with Supabase Realtime
-- [ ] 006.md - Assignment System (parallel: true) - Assignment workflows and grading system
-- [ ] 007.md - Multi-tenant UI (parallel: true) - Role-specific dashboards and responsive design
-- [ ] 008.md - Progressive Deployment (parallel: false) - Local → Cloud → Self-hosted pipeline
-- [ ] 009.md - Testing Infrastructure (parallel: true) - TDD with 90% coverage requirement
-- [ ] 010.md - Performance Optimization (parallel: false) - Caching, lazy loading, benchmarking
+- [ ] #6 - Database Foundation (parallel: false) - Core database schema, RLS policies, migrations
+- [ ] #9 - Authentication System (parallel: false) - Multi-role auth with Supabase integration  
+- [ ] #11 - Course Management (parallel: false) - Comprehensive course CRUD and enrollment
+- [ ] #2 - Video Conferencing (parallel: true) - LiveKit integration with screen sharing
+- [ ] #4 - Chat & Messaging (parallel: true) - Real-time chat with Supabase Realtime
+- [ ] #7 - Assignment System (parallel: true) - Assignment workflows and grading system
+- [ ] #3 - Multi-tenant UI (parallel: true) - Role-specific dashboards and responsive design
+- [ ] #5 - Progressive Deployment (parallel: false) - Local → Cloud → Self-hosted pipeline
+- [ ] #8 - Testing Infrastructure (parallel: true) - TDD with 90% coverage requirement
+- [ ] #10 - Performance Optimization (parallel: false) - Caching, lazy loading, benchmarking
 
 **Total tasks**: 10  
-**Parallel tasks**: 5 (tasks 004-007, 009)  
-**Sequential tasks**: 5 (foundation tasks 001-003, deployment 008, optimization 010)  
+**Parallel tasks**: 5 (tasks #2, #3, #4, #7, #8)  
+**Sequential tasks**: 5 (foundation tasks #6→#9→#11, deployment #5, optimization #10)  
 **Estimated total effort**: 230-290 hours (6-8 weeks with 2-3 developers)
